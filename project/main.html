@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="msn.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>PRO KABBADI LEAGUE</title>
+  <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+function myfunc(e) {
+if(e.keyCode == '9') {
+    alert("Tab is disabled don't try to press tab");
+    e.preventDefault();
+}
+}
+</script>
+</head>
+<body style="background-color:#ff8000";>
+
+
+<a href="main1.html"><i class="fa fa-angle-left" href="main1.html" style="font-size:54px; margin-left:36px;color:#fff"></i></a>
+<div class="container con mt-15">
+  <div class="row cn">
+    <div class="card text-white bg-dark mb-3" style="width: 700px mt-5 height:400px align:center">
+      <div class="card-header">Pro Kabaddi League</div>
+    <div class="card-body">
+      <h4 class="card-title">REGISTER HERE</h4>
+      <form class="needs-validation" novalidate action="main.php" method="post">
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" autocomplete="off" input onkeydown="myfunc(event)" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    </div><br>
+    <div class="col-md-6 mb-3">
+      <label for="user">Username</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+        </div>
+        <input type="text" class="form-control" id="user" name="user" placeholder=" Enter Username" autocomplete="off" input onkeydown="myfunc(event)" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Please choose a username.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="city">City</label>
+      <input type="text" class="form-control" id="city" name="city" placeholder="City" input onkeydown="myfunc(event)" required>
+      <div class="invalid-feedback">
+        Please provide a valid city.
+      </div>
+    </div>
+    <div class="col-md-6 mb-3">
+      <label for="dob">DOB</label>
+      <input type="date" class="form-control" id="dob" max="2001-11-12" name="dob" placeholder="DOB" input onkeydown="myfunc(event)" required>
+      <div class="invalid-feedback">
+        Please enter a valid DOB Age>18 years
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="password">password</label>
+      <input type="password" class="form-control" id="password" name="password" placeholder="password" input onkeydown="myfunc(event)" required>
+      <div class="invalid-feedback">
+        Please provide a valid password
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+        Agree to terms and conditions
+      </label>
+      <div class="invalid-feedback">
+        You must agree before submitting.
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary b1" type="submit">Submit form</button>
+</form>
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </html>

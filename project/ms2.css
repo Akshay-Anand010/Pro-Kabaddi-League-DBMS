@@ -1,0 +1,155 @@
+.con
+{
+  text-align: center;
+  align:center;
+}
+.c3
+{
+height: 400px;
+}
+#Header a
+{
+color: #ffb84d;
+}
+#Header a:hover
+{
+color: #fff;
+}
+#About .fa{
+color: #fff;
+}
+#About
+{
+  margin-top: -200px;
+}
+#About span
+{
+  padding: 10px 20px 10px 20px;
+}
+#About hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+#Skills span
+{
+padding: 10px 20px 10px 20px;
+}
+#Skills hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+#Experience span
+{
+padding: 10px 20px 10px 20px;
+}
+#Experience hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+#Experience .card
+{
+  border-top: 3px yellow;
+}
+#Contact span
+{
+padding: 10px 20px 10px 20px;
+}
+#Contact hr{
+  border-width: 3px;
+  margin-top: 6px;
+}
+#tp
+{
+  color: white;
+}
+.ft {
+color: #fff;
+s: 5px;
+}
+.cd
+{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}
+.cnm
+{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  height: 450px;
+}
+.nm
+{
+color: #fff;
+font-size: 1.5em;
+}
+.mk
+{
+height: 400px;
+}
+#Contact .bff
+{
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+}
+table
+{
+border-radius: 8px;
+}
+.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+ .flex-item {
+  flex: 0 0 auto;
+}
+#login-modal6 .modal-dialog
+{
+width: 600px;
+align-items: center;
+align-content: center;
+align-self: center;
+color:red;
+border-width: 10px;
+border-color: red;
+border-radius: 8px;
+}
+.bt
+{
+margin-left: 20px;
+}
+.modal fade
+{
+  border-width: 10px;
+  border-color: red;
+  border-radius: 8px;
+}
+#login-modal6 .form-cantrol
+{
+  margin-right: 20px;
+  margin-left: 5px;
+}
+#login-modal6 .modal-header
+{
+  background-color: #00e600;
+  font-size: 50px;
+  color:#fff;
+}
+.scroll
+{
+  overflow-x: scroll;
+  overflow-y: none;
+  white-space: nowrap;
+}
+.scroll::-webkit-scrollbar
+{
+  display: none;
+}

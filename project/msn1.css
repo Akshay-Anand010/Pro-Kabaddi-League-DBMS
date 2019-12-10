@@ -1,0 +1,58 @@
+body
+{
+  background-color: #ff80ff;
+  color: #ff80ff;
+  background: #ff80ff;
+}
+body {
+  background-image: url("ssn.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: scroll;
+}
+.con
+{
+  align-items: center;
+  align-self: center;
+  align-content: center;
+float: right;
+}
+.cd
+{
+width: 900px;
+}
+.cn
+{
+float: none;
+width: 400px;
+height: 420px;
+align-items: center;
+margin-top: 45px;
+
+}
+.b1
+{
+  align-items: center;
+}
+.cm
+{
+  align-items: center;
+  margin-left: 75px;
+}
+.ml
+{
+  height: 100px;
+}
+.cl
+{
+
+  background-color: #ffd11a;
+  background: #ffd11a;
+  font-weight: bold;
+  font-style: normal;
+}
+#cl .card-header
+{
+  background-color: #ffcc00;
+  color:#fff;
+}
